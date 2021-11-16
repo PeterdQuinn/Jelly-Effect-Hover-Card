@@ -7,11 +7,11 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background: linear-gradient(90deg, rgba(78,134,71,1) 0%, rgba(27,97,17,1) 100%);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(88,88,88,1) 100%);;
 }
 
 .card {
-  background-image: url(Noemi\ y\ lunah.jpg);
+  background-image: url(Mi\ Vida.jpg);
   position: absolute;
   border-radius: 8px;
   height: 450px;
@@ -24,7 +24,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: drop-shadow(0 0 1rem #f7faf8e8);
+  filter: drop-shadow(0 0 1rem #080808e8);
   overflow: hidden;
   cursor: pointer;
 }
@@ -73,7 +73,7 @@ svg#curve {
   height: 30px;
   width: 30px;
   border-radius: 10%;
-  background-color:  rgb(69,131,62);
+  background-color:  radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(88,88,88,1) 100%);;
   display: inline-block;
   padding: 5px;
   transform: translateY(200px);
